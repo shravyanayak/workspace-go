@@ -1,4 +1,11 @@
 # workspace-go
+
+Below are the steps to run project in dev and production, first time user should install lerna as global dependency, below is the command.
+
+Note : Node should be above version 8.
+
+$ npm install --global lerna
+
 There are 2 steps to run client-server gRPC program:
 
 Running Locally
