@@ -91,7 +91,7 @@ $ docker pull <docker-username>/goexample-client
 
 Run Client Application
 
-$ docker run <docker-username>/goexample-client
+$ docker run docker-username/goexample-client
 
 
 
