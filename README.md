@@ -79,7 +79,7 @@ Building and Running using Docker container images:
 
 10. Run Server Application
 
-	$ docker run shravyanayak/goexample-server 
+	$ docker run -p 9995:9995/tcp -it shravyanayak/goexample-server 
 
 11. Tag Docker images to Docker hub (Client)
 
@@ -91,7 +91,7 @@ Building and Running using Docker container images:
 
 13. Run Client Application
 
-	$ docker run shravyanayak/goexample-client
+	$ docker run --net host shravyanayak/goexample-client
 
 
 
